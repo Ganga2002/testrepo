@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.5.1-0-g916b5db  Build Version: 1.5.7152.31018
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="RightSignPkg">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.24531981555887 -1.407832290277 1.45180834679408"
+        rpy="0 0 0" />
+      <mass
+        value="2.9845130209103" />
+      <inertia
+        ixx="0.136304159186205"
+        ixy="0.007274494811515"
+        ixz="-0.000158182486862365"
+        iyy="0.115914887636766"
+        iyz="-5.06500977591304E-05"
+        izz="0.0252411803543244" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://RightSignPkg/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 0 0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://RightSignPkg/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+</robot>
